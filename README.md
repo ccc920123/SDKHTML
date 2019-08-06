@@ -1,7 +1,7 @@
 # SDK5Html
 # 一个HTML5 打包成Android apk 的框架，在使用该框架前你得有一点Android 开发基础，因为该框架需要使用Android studio 工具进行打包。
 ![Image text](https://github.com/ccc920123/SDKHTML/blob/master/image/GIF.gif)
-如果你在使用该框架打包时，你已经开发出了web 端盖的程序，已经部署在服务器上
+<br/>如果你在使用该框架打包时，你已经开发出了web 端盖的程序，已经部署在服务器上
 并且已经运行起来了，你可以使用本框架的http、https 的方式
 来实现打包。
 如果你有一个离线的，静态的html，你可以采用本框架进行内部集成，
@@ -25,7 +25,12 @@ MUI:
 ![Image text](https://github.com/ccc920123/SDKHTML/blob/master/image/zc0001.png)
 <br>
 更多开发问题请参考开发官网HBuilder
-<br><br><br>
+<br><br>
+如果lib 包已经比较旧了，可以到官网去更新<br>
+http://ask.dcloud.net.cn/article/103
+<br>
+该框架demo只是引入了部分arr  更多arr 可查看官网对各个包都有说明
+<br>
  框架打包APK:
  
  <BR>
@@ -90,7 +95,7 @@ MUI:
  如果有需求要修改 首页启动样式，请采用 SDK_WebApp  页面为启动界面。
  在设置这个未启动界面时，我们就开始接着看下面的
  
- #自定义启动界面，修改访问地址的方法。
+ #2.自定义启动界面，修改访问地址的方法。
  
  前面简单的已经说完，接下来就是重要的了，
  在使用SDK_WebApp作为启动界面时我们要注意SDK_WebApp界面代码中的几个地方
