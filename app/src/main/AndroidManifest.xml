@@ -25,21 +25,21 @@
         android:theme="@style/AppTheme"
         tools:replace="android:name">
 
-        <!-- <activity -->
-        <!-- android:name="io.dcloud.PandoraEntry" -->
-        <!-- android:configChanges="orientation|keyboardHidden|keyboard|navigation" -->
-        <!-- android:hardwareAccelerated="true" -->
-        <!-- android:launchMode="singleTask" -->
-        <!-- android:screenOrientation="user" -->
-        <!-- android:theme="@style/TranslucentTheme" -->
-        <!-- android:windowSoftInputMode="adjustResize"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
+         <!--<activity -->
+         <!--android:name="io.dcloud.PandoraEntry" -->
+         <!--android:configChanges="orientation|keyboardHidden|keyboard|navigation" -->
+         <!--android:hardwareAccelerated="true" -->
+         <!--android:launchMode="singleTask" -->
+         <!--android:screenOrientation="user" -->
+         <!--android:theme="@style/TranslucentTheme" -->
+         <!--android:windowSoftInputMode="adjustResize"> -->
+         <!--<intent-filter> -->
+         <!--<action android:name="android.intent.action.MAIN" /> -->
 
 
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
+         <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+         <!--</intent-filter> -->
+         <!--</activity> -->
 
         <activity
             android:name=".SDK_WebApp"
@@ -52,21 +52,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity -->
-        <!-- android:name=".SDKWebViewActivity" -->
-        <!-- android:screenOrientation="portrait" -->
-        <!-- android:launchMode="singleTask" -->
-        <!-- android:theme="@style/TranslucentTheme"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-
-
-        <!-- <activity android:name="VasActivity"></activity> -->
         <activity android:name=".SetActivity"></activity>
     </application>
 

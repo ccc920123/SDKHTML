@@ -192,10 +192,12 @@ class WebviewModeListener implements ICoreStatusListener {
     @Override
     public void onCoreInitEnd(ICore coreHandler) {
         // 设置单页面集成的appid
-//		String appid = "TestAppid";   如果使用本地直接配置的数据 这里就配置assets/apps/stardonh5
+//		String appid = "TestAppid";   如果使用本地直接配置的数据这里就配置assets/apps/stardonh5
         String appid = UUID.randomUUID().toString();
         // 单页面集成时要加载页面的路径，可以是本地文件路径也可以是网络路径
 //		String url = "http://www.baidu.com";
+//		String url = "html/login/login.html";
+
         // 设置启动参数,可在页面中通过plus.runtime.arguments;方法获取到传入的参数
 //        String args = "{url:'http://www.baidu.com'}";
 
