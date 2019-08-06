@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:layout_gravity="center"
+        android:text="欢迎你"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/setpara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改配置>>"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
